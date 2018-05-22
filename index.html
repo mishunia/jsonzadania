@@ -21,6 +21,7 @@
          <div class="row">
             <div class="span3">
                <ul id="videos-list"></ul>
+                <li class="video-list
             </div>
             <div class="span9" id="video-watcher"></div>
          </div>
@@ -29,10 +30,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
       <script>
 
-       var addVideoToList = function(video) {
+       function addVideoToList(video) {
 
         var videoLink = $('<a>')
-        videoLink.append(video.title)
+        videoLink.append(video.sport)
         var thumbnailUrl = youtube.generateThumbnailUrl(video.youtubeId)
         var thumbnailImg = $('<img>')
         thumbnailImg.attr('src', thumbnailUrl)

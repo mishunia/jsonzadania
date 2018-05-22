@@ -1,14 +1,52 @@
 [
-  {
-    "youtubeId": "TddFnTB_7IM",
-    "title": "Trip through the 80s"
-  },
-  {
-    "youtubeId": "epUk3T2Kfno",
-    "title": "Otters Holding Hands"
-  },
-  {
-    "youtubeId": "il2IrgFHfsg",
-    "title": "The Ooooh Cat"
-  }
-]
+
+        {
+			"sport": {
+				"title": "Trip through the 80s",
+				"videos": [
+          			{
+						"video1": "TddFnTB_7IM"
+					},
+					{
+						"video2": "TddFnTB_7IM"
+					},
+					{
+						"video3": "TddFnTB_7IM"
+					}
+				]
+			}
+		},
+		{
+			"muzyka": {
+				"title": "Trip through the 80s",
+				"videos": [
+          			{
+						"video1": "TddFnTB_7IM"
+					},
+					{
+						"video2": "TddFnTB_7IM"
+					},
+					{
+						"video3": "TddFnTB_7IM"
+					}
+				]
+			}
+		},
+		{
+			"podroze": {
+				"title": "Trip through the 80s",
+				"videos": [
+          			{
+						"video1": "TddFnTB_7IM"
+					},
+					{
+						"video2": "TddFnTB_7IM"
+					},
+					{
+						"video3": "TddFnTB_7IM"
+					}
+				]
+			}
+		}
+
+	]
