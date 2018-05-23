@@ -1,8 +1,8 @@
 [
 
         {
-			"sport": {
-				"title": "Trip through the 80s",
+			"category": "sport",
+			"array": {
 				"videos": [
           			{
 						"video1": "TddFnTB_7IM"
@@ -17,8 +17,8 @@
 			}
 		},
 		{
-			"muzyka": {
-				"title": "Trip through the 80s",
+			"category": "muzyka",
+			"array": {
 				"videos": [
           			{
 						"video1": "TddFnTB_7IM"
@@ -33,8 +33,8 @@
 			}
 		},
 		{
-			"podroze": {
-				"title": "Trip through the 80s",
+			"category": "podroze",
+			"array": {
 				"videos": [
           			{
 						"video1": "TddFnTB_7IM"
@@ -49,4 +49,4 @@
 			}
 		}
 
-	]
+]
