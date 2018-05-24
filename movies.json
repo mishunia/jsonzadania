@@ -1,52 +1,34 @@
-[
-
-        {
-			"category": "sport",
-			"array": {
-				"videos": [
-          			{
-						"video1": "TddFnTB_7IM"
-					},
-					{
-						"video2": "TddFnTB_7IM"
-					},
-					{
-						"video3": "TddFnTB_7IM"
-					}
-				]
-			}
-		},
-		{
-			"category": "muzyka",
-			"array": {
-				"videos": [
-          			{
-						"video1": "TddFnTB_7IM"
-					},
-					{
-						"video2": "TddFnTB_7IM"
-					},
-					{
-						"video3": "TddFnTB_7IM"
-					}
-				]
-			}
-		},
-		{
-			"category": "podroze",
-			"array": {
-				"videos": [
-          			{
-						"video1": "TddFnTB_7IM"
-					},
-					{
-						"video2": "TddFnTB_7IM"
-					},
-					{
-						"video3": "TddFnTB_7IM"
-					}
-				]
-			}
+{  
+	"categories":[  
+	  {  
+		"name":"sport",
+		"videos":{  
+		  "videolist":[  
+			"Hn5lVBo0MKc",
+			"Q0-LC6G1wxY",
+			"H2AbP--m8pM"
+		  ]
 		}
-
-]
+	  },
+	  {  
+		"name":"muzyka",
+		"videos":{  
+		  "videolist":[  
+			"I2qX2LU_m2w",
+			"WddpRmmAYkg",
+			"Gdg5HqX_vZE"
+		  ]
+		}
+	  },
+	  {  
+		"name":"podroze",
+		"videos":{  
+		  "videolist":[  
+			"n9yo5lFJQrY",
+			"8BNEamlis8c",
+			"ZQthtWvRLm8"
+		  ]
+		}
+	  }
+	]
+  }
