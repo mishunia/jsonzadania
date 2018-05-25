@@ -60,7 +60,6 @@
 
         const jsonObj = 'movies.json'
         const videoList = $('.videos-list')
-        
 
         function createVideoEmbed(videoLink) {
 
@@ -83,13 +82,15 @@
 
 
         function pushTemplates(movies) {
-          $.each(movies.categories, function (i, category) {
-            $.each(category.videos, function (i, videos) {
+          $.each(movies.categories, (i, category) =>  {
+            const categoriesQuan = movies.categories 
+            $.each(category.videos, (i, videos) => {
+              
               const element = $(`
                 <li class="videos-list__item">
                     <h2>${category.name}</h2>
                     <ul>
-                        ${videos.map(function (video) {
+                        ${videos.map(video => {
                             const thumbnailUrl = youtube.generateThumbnailUrl(video);
                             return `
                             <li class="video">
