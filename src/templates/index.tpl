@@ -59,13 +59,12 @@
 
         var videos = []
         $.getJSON('movies.json')
-        .done(function(data) {
-            console.log('done')
+          .done(function(data) {
             videos = data
             for (var i = 0; i < videos.length; i++) {
-            addVideoToList(videos[i])
+              addVideoToList(videos[i])
             }
-        });
+          })
 
       </script>
    </body>
